@@ -8,24 +8,12 @@
   <meta name="description" content="Tarot parties done different. Real psychics. Real fun. Brisbane & SEQ." />
   <meta name="theme-color" content="#FFFBDD">
 
-  <!-- Dynamic base for GitHub project pages + custom domain -->
-  <script>
-    (function () {
-      const isGithubIo = location.hostname.endsWith("github.io");
-      const repo = location.pathname.split("/")[1] || "";
-      const baseHref = isGithubIo && repo ? `/${repo}/` : `/`;
-      const base = document.createElement("base");
-      base.href = baseHref;
-      document.head.prepend(base);
-    })();
-  </script>
-
   <!-- Favicon -->
   <link rel="icon" href="gather_tarot_favicon_microtrim.ico" type="image/x-icon">
   <link rel="shortcut icon" href="gather_tarot_favicon_microtrim.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="brand.png">
 
-  <!-- Open Graph -->
+  <!-- Open Graph (these need full URLs later for sharing previews) -->
   <meta property="og:title" content="Gather Tarot" />
   <meta property="og:description" content="Tarot parties done different. Real psychics. Real fun." />
   <meta property="og:type" content="website" />
@@ -38,9 +26,7 @@
   <meta name="twitter:image" content="brand.png" />
 
   <style>
-    :root {
-      --bg: #FFFBDD;
-    }
+    :root { --bg: #FFFBDD; }
 
     html, body {
       height: 100%;
@@ -57,8 +43,6 @@
     img {
       max-width: 95vw;
       max-height: 95vh;
-      height: auto;
-      width: auto;
       display: block;
     }
   </style>
